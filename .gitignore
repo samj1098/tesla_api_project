@@ -1,0 +1,20 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+
+# Ignore secrets
+.env
+*.pem
+
+# Ignore API cache/data
+cache.json
+cached_vehicle_data.json
+acesstoken.py
+api-backup.py
+
+# Ignore logs
+nohup.out
+*.log
